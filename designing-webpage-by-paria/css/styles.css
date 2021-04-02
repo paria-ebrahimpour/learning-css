@@ -120,3 +120,24 @@ a {
     padding-left: 0;
   }
 }
+/*Icons*/ /*tu y ghesmate images migof hame iconharo sprite kon. in ro unjuri kardim k y reguest bede server*/
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.icon--primary {
+  fill: var(
+    --color-primary
+  ); /*fill faghat bara svg be kar mire, baraye taiine rangesh*/
+}
+.icon-container {
+  /*in bekhatere in y - hass na -- bekhatere inke ghesmati az y class niss va b kolli y class jadide*/
+  background: #f3f9fa;
+  width: 64px;
+  height: 64px; /*inaro bekhatere in px mizarim chon andazeye icon tu mob va desk taghir nmikone*/
+  border-radius: 100%;
+  /*span chon inline element hastesh bkhaterre hamun tul va arz rush tasiri nadare, bekhatere hamin khate zir ro bayad benevisim ta ina rush asar  konan*/
+  display: inline-flex; /*inline-block bekhatere in estefade nmikonim k icon bere vasate un ghesmati k barash tarif shode*/
+  justify-content: center; /*ofoghi biad vasat- primary access by default harizontal*/
+  align-items: center; /*amudi biad vasat - secondary access*/
+}
